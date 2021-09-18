@@ -47,8 +47,8 @@ jobs:
         if: runner.os == 'Linux'
       - name: Use MSVC on Windows
         run: |
-          echo "CXX=cl.exe" >> $GITHUB_ENV
-          echo "CC=cl.exe" >> $GITHUB_ENV
+          echo "CXX=cl.exe" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          echo "CC=cl.exe" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
         if: runner.os == 'Windows'
 
       - name: Setup build directory
