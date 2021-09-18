@@ -1,5 +1,4 @@
 # Sen Scripts Decompiler
-
 Current Build Status: ![buildstatus](https://github.com/TwnKey/SenScriptsDecompiler/actions/workflows/build.yml/badge.svg)
 
 This tool was originally meant to decompile the scenario files from The Legend of Heroes: Trails of Cold Steel III for translation purpose,
